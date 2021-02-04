@@ -1,5 +1,7 @@
 body {
   background-image: url('img/woodenBackground.jpg');
+  background-attachment: fixed;
+  
 }
 h1 {
     color: purple;
@@ -57,6 +59,11 @@ h2 {
    
   .column img{
     width : 100%;
+  }
+
+  .column p{
+    font-size: 70%;
+    text-align: center;
   }
 
   /* Clear floats after image containers */
