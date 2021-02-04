@@ -6,17 +6,24 @@
     <link rel="stylesheet" href="recipe.css">
   </head>
 
-  <body>
+  <script type="text/javascript" src="saveEdit.js"> </script>
+  <body  onload="checkEdits()" >
 
-    <h1>
+    
+    <h1 id="edit" contenteditable="true">
       खिचडी
     </h1>
+    <input type="button" value="save my edits" onclick="saveEdits()"/>
 
     <h2>
       <strong> 3 से 4 लोग </strong>
       <br>
       <strong>30 मिनिट </strong>
     </h2>
+
+   
+
+    
 
     <img src="img\khichadi.jpg" class="center">
 
